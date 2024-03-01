@@ -3,6 +3,8 @@ print("*"*35)
 lst = [0, 1, 2, 4, 10, 15, 3, 8, 11, -28, -5, 30, 51]
 # Tìm vị trí của phần tử âm đầu tiên
 VT_am = 0
+# Danh sách lúc đầu
+print("Danh sách lúc đầu là:", lst)
 for x in range(len(lst)):
     if lst[x] < 0:
         VT_am = x

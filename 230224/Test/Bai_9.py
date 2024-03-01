@@ -8,6 +8,9 @@ sum_HT = 0
 max_dem = 0
 Dem_HT = 0
 
+# Danh sách lúc đầu
+print("Danh sách lúc đầu là:", lst)
+
 for i in lst:
     if i > 0:
         sum_HT += i
@@ -19,4 +22,5 @@ for i in lst:
         sum_HT = 0
         Dem_HT = 0
 print("Số lượng các số dương liên tiếp có tổng lớn nhất là:", max_dem)
+print("Tổng lớn nhất là:", max_sum) #Thêm
 print("*"*35)

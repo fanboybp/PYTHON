@@ -8,6 +8,9 @@ max_ds_con = [] # ds lưu đoạn con có sum max
 current_sum = 0 # Lưu tổng đoạn con dương hiện tại
 current_ds_con = [] # ds lưu đoạn con dương hiện tại
 
+# Danh sách lúc đầu
+print("Danh sách lúc đầu là:", lst)
+
 for i in lst:
     if i > 0:
         current_sum += i

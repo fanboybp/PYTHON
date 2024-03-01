@@ -9,6 +9,9 @@ ds_nt = []
 # Danh sách để lưu vị trí của các số nguyên tố trong danh sách
 ds_VT = []
 
+# Danh sách lúc đầu
+print("Danh sách lúc đầu là:", lst)
+
 # Duyệt qua từng phần tử và vị trí của nó trong danh sách
 for i, num in enumerate(lst):
     # Kiểm tra xem số có phải là số nguyên tố không

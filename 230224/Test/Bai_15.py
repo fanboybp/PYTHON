@@ -6,6 +6,8 @@ lst = [-10, -5, 1, 2, 4, 10, 15, 28, 30, 51, 32, 32, 32, 22, 7, -3, -11, 9, 22, 
 ds_ptu_duong = []
 ds_new = []
 
+print("Danh sách lúc đầu là:")
+print(lst)
 for i in lst:
     if i > 0:
         ds_ptu_duong.append(i)

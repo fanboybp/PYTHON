@@ -7,6 +7,9 @@ max_length = 0 # Độ dài đoạn con dương liên tiếp dài nhất
 current_VT_start = -1 # Vị trí bắt đầu của đoạn con dương liên tiếp HT
 current_length = 0 # Độ dài đoạn con dương liên tiếp Hiên tại
 
+# Danh sách lúc đầu
+print("Danh sách lúc đầu là:", lst)
+
 for i, num in enumerate(lst):
     if num > 0:
         if  current_VT_start == -1: # Nếu chưa có đoạn con nào

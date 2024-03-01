@@ -7,6 +7,9 @@ lst = [1, -10, 5, -9, 8, -22, 10, -2, 99, 88, 77, 6, 9]
 Dem_max = 0
 Dem_HT = 0
 
+# Danh sách lúc đầu
+print("Danh sách lúc đầu là:", lst)
+
 for i in range(len(lst) - 1):
     if lst[i] * lst[i + 1] < 0:
         Dem_HT += 1

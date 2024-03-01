@@ -5,6 +5,9 @@ ptu_max = max(lst)
 ptu2 = float('-inf')
 VT = 0
 
+# Danh sách lúc đầu
+print("Danh sách lúc đầu là:", lst)
+
 for i in range(len(lst)):
     if lst[i] < ptu_max and lst[i] > ptu2:
         ptu2 = lst[i]

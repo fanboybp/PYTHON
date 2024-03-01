@@ -2,6 +2,8 @@
 print("*"*35)
 lst = [-10, -5, 1, 2, 4, 10, 15, 28, 30, 51, 61, 3, 11]
 max1 = max(lst)
+# Danh sách lúc đầu
+print("Danh sách lúc đầu là:", lst)
 for i in range(len(lst) -1, -1, -1):
    if lst[i] > 0:
        max2 = i

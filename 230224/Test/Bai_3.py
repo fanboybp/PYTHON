@@ -3,6 +3,8 @@
 print("*"*35)
 lst = [-10, -5, 1, 2, 4, 10, 15, 28, 30, 51]
 S = 0
+# Danh sách lúc đầu
+print("Danh sách lúc đầu là:", lst)
 for x in lst:
     S += x
 long = len(lst)
