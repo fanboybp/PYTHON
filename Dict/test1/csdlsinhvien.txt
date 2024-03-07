@@ -1,0 +1,4 @@
+sv01: Nguyễn Văn Chúc: 9.5
+sv02: Nguyễn Thị Mừng: 8.5
+sv03: Vũ Thị Năm: 9.0
+sv04: Phan Văn Mới: 7.0
